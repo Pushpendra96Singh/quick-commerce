@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q-commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+</head>
+
+<body>
+    
+    <!-- navbar-start -->
+    <section class="nav-sec" id="nav-sec">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg main-menu">
+
+                <div class="main-header">
+                    <a class="navbar-brand" href="#">Quick</a>
+                    <div class="location-header">
+                        <span id="openModal">Hamirpura Madhya Pradesh <i class="fa-solid fa-caret-down"></i></span>
+                        <!-- location-modal -->
+                        <div class="overlay"></div>
+                        <div class="cardbox" id="cardbox">
+                            <div class="icon-right">
+                                <span>Your New Location</span>
+                                <i class="fa-solid fa-xmark closebtn"></i>
+                            </div>
+                            <input type="text" class="form-control" placeholder="search new location">
+                            <div class="loc-gps mt-3">
+                            <h6 class="mb-0"><i class="fa-solid fa-location-crosshairs"></i> Current Locations</h6>
+                            <small>Detech GPS</small>
+                        </div>
+                        </div>
+                        <!-- end -->
+                    </div>
+                    <div class="search-location">
+                        <input type="search" class="form-control" id="search_btn">
+                        <span class="s-bottom" id="scroll-text">Search "vegetables"</span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="login-sec">
+                        <div class="login-left">
+                            <a href="#" id="login_form_btn">
+                            <span><i class="fa-regular fa-circle-user"></i>
+                                login</span>
+                            </a>
+                            <!-- login-form -->
+                            <div class="overlay_login"></div>
+                            <div class="login-form">
+                                <i class="fa-solid fa-xmark close_login"></i>
+                                <div class="login-wrap">
+                                    <h4>Quick</h4>
+                                    <p>Log in or Sign up</p>
+                                    <input type="text" class="form-control" placeholder="enter your mobile number">
+                                    <small>We will send you an OTP on this number</small>
+                                    <button class="btn btn-login mt-3">Continue</button>
+                                </div>
+                            </div>
+                            <!-- end -->
+                            <span class="cart-wrap">
+                                <a href="cart.html">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="cart_box add_cart" id="add_cart">0</span>
+                            </a>
+                                cart</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </section>
+
+    <!-- hero section start -->
+    <section class="hero-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 px-0">
+                    <div class="hero-play">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1709831027_FestiveOfFreshness2.jpg?im=Resize=(1680,320)"
+                            alt="hero-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- category-section-start -->
+    <section class="all-category-wrapper py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="fea-sec-top">Featured Categories</h2>
+                </div>
+            </div>
+            <!-- card-row-start -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card-wrapper-cate d-flex ">
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/aata-oil.png" alt="">
+                            <p>Aata & Oil</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/aata-oil.png" alt="">
+                            <p>Aata & Oil</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/aata-oil.png" alt="">
+                            <p>Aata & Oil</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/aata-oil.png" alt="">
+                            <p>Aata & Oil</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/aata-oil.png" alt="">
+                            <p>Aata & Oil</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/aata-oil.png" alt="">
+                            <p>Aata & Oil</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/aata-oil.png" alt="">
+                            <p>Aata & Oil</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="category-listing-page.html">
+                            <img src="images/veg.webp" alt="">
+                            <p>vegetables</p>
+                        </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- category-section-end -->
+
+    <!-- products-start -->
+    <section class="products-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="fea-sec-top">Popular Products</h2>
+                </div>
+                <div class="col-lg-12">
+                    <div class="wrapper">
+                        <div class="my-slider">
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="#">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- products-end -->
+
+    <!-- cold-drink & juice -->
+    <section class="cold-drink-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="fea-sec-top">Cold Drinks & Juices</h2>
+                </div>
+                <div class="col-lg-12">
+                    <div class="wrapper">
+                        <div class="my-slider-drinks">
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+     <!-- snackes & munchies -->
+     <section class="snacks-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="fea-sec-top">Snacks & Munchies</h2>
+                </div>
+                <div class="col-lg-12">
+                    <div class="wrapper">
+                        <div class="my-slider-snacks">
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dz-img-box style-4 box-hover ">
+                                    <div class="menu-detail">
+                                        <div class="dz-media"><img src="images/aata-oil.png" alt="/"></div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product-details.html">vegetables</a></h5>
+                                            <p>500 g</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-footer"><span>Regular Price</span>
+                                        <h5 class="price">₹10.00</h5>
+                                    </div>
+                                    <div class="crt-plus">
+                                        <a class="detail-btn"><i class="fa-solid fa-plus"></i></a>
+                                        <div class="add-to-crt-wrap">
+                                    <div class="add-to-cart">
+                                        <i class="fa-solid fa-minus" id="minusProduct"></i>
+                                        <span class="count-product px-2" id="countValue">0</span>
+                                        <i class="fa-solid fa-plus" id="plusProduct"></i>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+<!-- footer-start -->
+<section class="footer-bottom py-4">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-lg-2">
+                <ul class="main-list">
+                    <p>Categories</p>
+                    <li><a href="">aata</a></li>
+                    <li><a href="">oil</a></li>
+                    <li><a href="">snakcs</a></li>
+                    <li><a href="">fruits</a></li>
+                    <li><a href="">sweets</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul class="main-list">
+                    <p>Popular Categories</p>
+                    <li><a href="">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="">contact</a></li>
+                   
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul class="main-list">
+                    <p>Help & Supports</p>
+                    <li><a href="privacy-policy.html">privacy</a></li>
+                    <li><a href="privacy-policy.html">terms & condition</a></li>
+                    <li><a href="">carrier</a></li>
+                    <li><a href="Faq.html">faq</a></li>
+                    <li><a href="">help</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul class="main-list">
+                    <p>Accounts</p>
+                    <li><a href="account.html">account</a></li>
+                    <li><a href="">my-order</a></li>
+                    <li><a href="">wishlist</a></li>
+                    <li><a href="">payment method</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <ul class="contact-main-list">
+                <p class="top-c-list">contact us</p>
+                <p>whatapps us : 88138132198</p>
+                <p>call us: 78954357752</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ut voluptatibus officia fuga ex.</p>
+                </ul>
+            </div>
+        </div>
+        <!-- bootom-footer -->
+    </div>
+</section>
+<section class="bottom-line-footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 px-0">
+                <div class="bottom-wrapper">
+                    <p>© 2024 All rights reserved. online shopping Ltd.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end -->
+    <!-- js link -->
+    <script src="js/bootstrap.min.js"></script> <!--bootstrap link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
